@@ -1,0 +1,33 @@
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.titre{
+    color: rgb(255, 255, 255);
+    width: 30%;
+    font-size: 180%;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.titre h1{
+    margin: 0%;
+}
+
+.link{
+    width: 70%;
+    font-size: 170%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+.link a:hover{
+    font-weight: lighter;
+}

@@ -1,0 +1,38 @@
+main{
+    display: flex;
+
+}
+
+.info{
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.icon img{
+    width: 15%;
+    height: auto;
+}
+
+@keyframes slideinfinite{
+    from{
+        transform: translate(50%);
+    }
+    30%{
+        transform: translate(-50%);
+    }
+    50%{
+        transform: translate(50%);
+    }
+    80%{
+        transform: translate(-50%);
+    }
+    to{
+        transform: translate(50%);
+    }
+}
+.anim1{
+    animation: slideinfinite 15s infinite;
+}
+
+.anim2{
+    animation: slideinfinite 17s infinite;
+}

@@ -1,0 +1,32 @@
+
+.gif{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gif img{
+    height: auto;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+
+.placeGif{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.bg{
+    width: 50%;
+    height: auto;
+
+}
+.bg img{
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
